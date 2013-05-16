@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.GitHubIssueTracker.Web", "FFCG.GitHubIssueTracker.Web\FFCG.GitHubIssueTracker.Web.csproj", "{44ABB334-F931-4B33-A5EF-98A0433E2D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.GitHubIssueTracker.Web.Tests", "FFCG.GitHubIssueTracker.Web.Tests\FFCG.GitHubIssueTracker.Web.Tests.csproj", "{4DB97591-564C-4094-B39C-A48BB13C9498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44ABB334-F931-4B33-A5EF-98A0433E2D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ABB334-F931-4B33-A5EF-98A0433E2D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ABB334-F931-4B33-A5EF-98A0433E2D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ABB334-F931-4B33-A5EF-98A0433E2D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB97591-564C-4094-B39C-A48BB13C9498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB97591-564C-4094-B39C-A48BB13C9498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB97591-564C-4094-B39C-A48BB13C9498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB97591-564C-4094-B39C-A48BB13C9498}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
