@@ -14,6 +14,8 @@ namespace FFCG.GitHubIssueTracker.Integration
 
         public IEnumerable<Issue> GetAllIssues()
         {
+            
+
             // C:\Code> curl -i -H 'Authorization: token 8768769532a411f9d7ffdb7a8804af6fae7bad0e' https://api.github.com/repos/ffcg/GitHubIssueTracker/issues
             return new List<Issue>();
         }
