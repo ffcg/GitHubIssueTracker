@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentAssertions">
+      <HintPath>..\packages\FluentAssertions.2.0.1\lib\net45\FluentAssertions.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -115,8 +118,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Integration\HomeControllerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="Web\Controllers\HomeControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -125,6 +129,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FFCG.GitHubIssueTracker.Integration\FFCG.GitHubIssueTracker.Integration.csproj">
+      <Project>{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}</Project>
+      <Name>FFCG.GitHubIssueTracker.Integration</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FFCG.GitHubIssueTracker.Web\FFCG.GitHubIssueTracker.Web.csproj">
       <Project>{44ABB334-F931-4B33-A5EF-98A0433E2D5A}</Project>
       <Name>FFCG.GitHubIssueTracker.Web</Name>
