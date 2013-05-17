@@ -7,8 +7,8 @@
     <ProjectGuid>{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FFCG.GitHubIssueTracker.Integration</RootNamespace>
-    <AssemblyName>FFCG.GitHubIssueTracker.Integration</AssemblyName>
+    <RootNamespace>FFCG.GitHubIssueTracker.Integration.GitHub</RootNamespace>
+    <AssemblyName>FFCG.GitHubIssueTracker.Integration.GitHub</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

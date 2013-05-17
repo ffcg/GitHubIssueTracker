@@ -1,4 +1,4 @@
-﻿namespace FFCG.GitHubIssueTracker.Integration.Models
+﻿namespace FFCG.GitHubIssueTracker.Integration.GitHub.Models
 {
     public class Issue
     {

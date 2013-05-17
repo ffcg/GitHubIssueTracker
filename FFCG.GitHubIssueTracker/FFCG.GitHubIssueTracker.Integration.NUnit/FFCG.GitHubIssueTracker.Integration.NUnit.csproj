@@ -7,8 +7,8 @@
     <ProjectGuid>{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FFCG.GitHubIssueTracker.TestResultParser</RootNamespace>
-    <AssemblyName>FFCG.GitHubIssueTracker.TestResultParser</AssemblyName>
+    <RootNamespace>FFCG.GitHubIssueTracker.Integration.NUnit</RootNamespace>
+    <AssemblyName>FFCG.GitHubIssueTracker.Integration.NUnit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

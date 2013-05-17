@@ -133,9 +133,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FFCG.GitHubIssueTracker.Integration\FFCG.GitHubIssueTracker.Integration.csproj">
+    <ProjectReference Include="..\FFCG.GitHubIssueTracker.Integration.GitHub\FFCG.GitHubIssueTracker.Integration.GitHub.csproj">
       <Project>{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}</Project>
-      <Name>FFCG.GitHubIssueTracker.Integration</Name>
+      <Name>FFCG.GitHubIssueTracker.Integration.GitHub</Name>
     </ProjectReference>
     <ProjectReference Include="..\FFCG.GitHubIssueTracker.Web\FFCG.GitHubIssueTracker.Web.csproj">
       <Project>{44ABB334-F931-4B33-A5EF-98A0433E2D5A}</Project>

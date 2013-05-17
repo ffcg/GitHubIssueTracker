@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using FFCG.GitHubIssueTracker.Integration.Models;
+using FFCG.GitHubIssueTracker.Integration.GitHub.Models;
 
-namespace FFCG.GitHubIssueTracker.Integration
+namespace FFCG.GitHubIssueTracker.Integration.GitHub
 {
     public class IssueRepository
     {
