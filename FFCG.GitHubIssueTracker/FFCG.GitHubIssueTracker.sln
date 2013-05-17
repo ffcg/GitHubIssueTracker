@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.GitHubIssueTracker.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.GitHubIssueTracker.Integration", "FFCG.GitHubIssueTracker.Integration\FFCG.GitHubIssueTracker.Integration.csproj", "{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.GitHubIssueTracker.TestResultParser", "FFCG.GitHubIssueTracker.TestResultParser\FFCG.GitHubIssueTracker.TestResultParser.csproj", "{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571E8D6D-EFC0-4B2E-A694-AD6FAE21CFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48E1AE6-4A0F-4D8D-9E9B-C50EEDB4FA58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
